@@ -1,0 +1,27 @@
+.left .copy{
+    color: white;
+    position: absolute;
+    top: 73%;
+    left: 13%;
+}
+
+.left .copy h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.left .copy h1::after{
+    content: "";
+    display: block;
+    margin-top: 15px;
+    border-bottom: 2px solid #fff;
+    width: 134px;
+    margin-bottom: 20px;
+}
+
+.left .copy p{
+    font-size: 1.4rem;
+    line-height: 1.5em;
+    opacity: .9;
+}

@@ -1,0 +1,38 @@
+/* Configuración del pie de página */
+
+.containerfooter{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+  
+  }
+  
+  .roaped{
+    margin-right: 45px;
+  }
+  
+  .roaped p{
+    font-size: 1.3rem;
+  }
+  
+/* Media quieries */
+@media (max-width: 900px){
+
+  /* Configuración pie de página */
+  
+  .containerfooter{
+      justify-content: center;
+  }
+
+  .roaped{
+    margin-right: 0px;
+    margin-top: 70px;
+  }
+  
+  .roaped p{
+    font-size: 1.1rem;
+
+  }
+      
+}

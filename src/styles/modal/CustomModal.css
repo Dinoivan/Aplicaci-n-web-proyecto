@@ -1,0 +1,814 @@
+/* CustomModal.css */
+
+
+/*Modal*/
+
+/*Contenedor principal*/
+.customModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro translúcido */
+    z-index: 1000;
+  }
+  
+  /*Contenedor segundario*/
+  .customModal__content {
+    background: white;
+    padding: 10px 20px 20px 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(194, 59, 59, 0.2);
+
+  }
+
+  .direccion{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /*Centrando el tiutlo del modal*/
+  .customModal h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Alinea los campos horizontalmente */
+    gap: 10px;
+  }
+
+  .form-grouppp label {
+    display: block;
+    text-align: start;
+    margin-bottom: 2px;
+  }
+
+  form .h[type="text"]{
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+    margin-bottom: 2.5rem;
+    border: 1px solid #D5ECF8;
+    outline: none;
+    width: 200px;
+ }
+
+  .hwd{
+    background-color: rgb(233, 233, 237);
+    border: 1px solid #D5ECF8;
+  }
+
+  /* Estilo del input de tipo file */
+  .form-grouppp input[type="file"] {
+    display: none; /* Oculta el campo de carga de archivos por defecto */
+  }
+
+  /*Estilo para los comentarios*/
+  .area{
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #D5ECF8;
+    padding: 0.3rem 0.1rem 2rem 0.5rem;
+    outline: none;
+  }
+
+  .area-apt{
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #D5ECF8;
+    padding: 0.3rem 0.1rem 2rem 0.5rem;
+    outline: none;
+    height: 50px; /* Altura máxima deseada */
+    max-height: 50px;
+    overflow-y: auto;
+  }
+
+  .area-apt::placeholder{
+    text-align: start;
+  }
+
+ 
+  .area::placeholder{
+    text-align: start;
+  }
+
+
+  .area_{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    border: 1px solid #D5ECF8;
+    padding: 0.3rem 0.1rem 2rem 0.5rem;
+    outline: none;
+  }
+
+  .area_::placeholder{
+    text-align: start;
+  }
+
+  .centroC{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+
+  }
+  .error {
+    border: 1px solid red; /* Cambiar el estilo del borde para indicar un error */
+  }
+  
+  .error-message {
+    color: red; /* Color del mensaje de error */
+    font-size: 14px; /* Tamaño de fuente del mensaje de error */
+  }
+
+
+  .form-rows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Alinea los campos horizontalmente */
+    gap: 10px;
+
+  }
+
+  .form-rows_{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .form-grouppp-horizontal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+  }
+
+  .form-group-horizontal-item {
+    flex: 1;
+    margin-right: 20px; /* Espacio entre los campos de entrada */
+  }
+
+  .contenedor{
+    margin-left: 25px;
+    text-align: center;
+  }
+
+  .contenedor-items{
+    font-size: 12px;
+  }
+
+  .form-group {
+    flex: 1;
+    margin-right: 20px
+  }
+
+ 
+  .configuration{
+    text-align: center;
+    font-size: 1px;
+    margin-bottom: 3rem;
+  }
+
+  .configurar{
+    text-align: start;
+  }
+  
+
+
+ form .hw[type="text"]{
+  padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+  background-color: rgb(233, 233, 237);
+  width: 200px;
+
+ }
+
+
+ .ht{
+  padding: 0.8rem 0.8rem 0.8rem 1.5rem;
+  outline: none;
+ 
+ }
+
+
+ form .d[type="text"]{
+  padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+  background-color: rgb(18, 18, 104);
+  width: 270px;
+
+ }
+
+ form .w[type="email"]{
+  padding: 0.8rem 0.8rem 0.5rem 0.5rem;
+  width: 200px;
+  margin: 0px 0px 15px 0px;
+
+ }
+
+ .Migrar{
+    width: 150px;
+    border-radius: 2px;
+    border: 1px solid #D5ECF8;
+    padding: 0.5rem 0.1rem 0.5rem 1rem;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.centro{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.form-grouppp-horizontal_{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.result-container {
+  max-width: 100px; /* Altura máxima del contenedor de resultados */
+  overflow-y: auto; /* Scroll vertical para el contenedor de resultados */
+  text-align: center;
+  max-height: 100px; 
+}
+
+
+
+.result-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form .t[type="email"]{
+  padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+  margin-bottom: 20px;
+  outline: none;
+  width: 270px;
+}
+
+
+.result-list li {
+  display: inline-block;
+  margin-right: 10px; /* Espacio entre elementos de la lista */
+}
+
+form .h {
+  border: 1px solid #D5ECF8;
+  padding: 0.78rem 0.8rem;
+  outline: none;
+  width: 200px;
+
+}
+
+ .cc{
+  border: 1px solid #D5ECF8;
+  padding: 5px;
+} 
+
+    
+  .customModal__buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+  }
+
+  .selector{
+    width: 100px;
+    display: block;
+    border-radius: 2px;
+    border: 1px solid #D5ECF8;
+    padding: 0.6rem 0.0rem 0.5rem 0rem;
+    outline: none;
+    text-align: center;
+  }
+
+
+  .custom-file-input{
+    position: relative;
+  }
+
+  .attach-button{
+    position: absolute;
+    top: 20%;
+    left: 90%;
+  }
+
+  .signup-x{
+    background-color: white;
+    color: var(--primary-blue);
+    border: none;
+    font-size: 23px;
+    cursor: pointer;
+
+  }
+
+  li{
+    list-style: none;
+  }
+
+  .signup-btn_agregar{
+    /* width: 80px; */
+    background: var(--primary-blue);
+    color: white;
+    font-weight: 700;
+    border: 1px solid #D5ECF8;
+    border-radius: 4px;
+    /* padding: 0.9rem 0.8rem 0.9rem 0.8rem; */
+    /* font-size: 1.0rem; */
+    margin-top: 15px;
+    /* margin-left: 20px; */
+    /* letter-spacing: 0.5px; */
+    cursor: pointer;
+
+  }
+
+  .color{
+    color: red;
+  }
+
+  .signup-btn_agregar_{
+    width: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 1.0rem;
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+
+  }
+
+  .request-number{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .signup-btn_di{
+    width: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 1.0rem;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    
+  }
+
+  .signup-btn_a{
+    width: 30px;
+    display: inline-block;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 1.0rem;
+    margin-top: 5px;
+    margin-left: 20px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+
+  }
+
+  .signup-btn_a_{
+    width: 30px;
+    display: inline-block;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 1.0rem;
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+  }
+
+  .signup-btn{
+    width: 150px;
+    background: var(--primary-blue);
+    color: white;
+    font-weight: 700;
+    border: 1px solid #D5ECF8;
+    border-radius: 4px;
+    padding: 1.3rem 1.3rem;
+    font-size: 1.0rem;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    
+}
+
+.signup-btn_{
+  width: 13px;
+  height: 25px;
+  background: var(--primary-blue);
+  color: white;
+  border: 1px solid #D5ECF8;
+  border-radius: 4px;
+  padding: 0rem 0rem 0rem 0rem;
+  font-size: 1.0rem;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+
+}
+
+
+.ficha-list{
+  margin-right: 20px;
+}
+
+.label{
+  margin-right: 10px;
+}
+.assign-button {
+  color: blue; /* Color del texto */
+  border: none;
+  border-radius: 4px; /* Bordes redondeados */
+  padding: 4px 4px; /* Espaciado interno */
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s; /* Transición de color de fondo */
+
+}
+
+/* Estilos para el botón "Asignar" cuando está seleccionado */
+.assign-button.selected {
+  background-color: #28A745; /* Cambia el color de fondo cuando está seleccionado */
+
+}
+
+/* Estilos para el icono de verificación */
+.assign-button.selected .fa-check {
+  margin-right: 10px; /* Espacio entre el texto y el icono */
+}
+
+/* Estilos para el ícono de verificación */
+.assign-button .fa-check {
+  color: blue; /* Color del icono de verificación */
+  font-size: 12px; /* Tamaño del icono */
+}
+
+.numero{
+  margin-right: 30px;
+}
+
+.confirmation-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro translúcido */
+    z-index: 1000;
+  
+}
+
+.signup-btn_d{
+  width: 80px;
+  border: none;
+  background-color: var(--primary-blue);
+  border-radius: 4px;
+  font-size: 1.0rem;
+  margin: 15px 0;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  color: white;
+
+}
+
+.confirmation-modal__content{
+  background: white;
+  padding: 10px 20px 20px 20px;
+  border: 1px solid #D5ECF8;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(194, 59, 59, 0.2);
+  text-align: center;
+
+}
+
+.error_Tdata{
+  font-size: 1.5rem; 
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+.confirmation-modal button{
+  width: 100px;
+  background: var(--primary-blue);
+  margin-left: 10px;
+  color: white;
+  border: 1px solid #D5ECF8;
+  border-radius: 4px;
+  padding: 1.0rem 1.0rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.custom-label {
+  display: flex;
+  align-items: flex-end;
+}
+
+.custom-label .ico-element-ficha {
+  margin-right: 8px; /* Espacio entre el icono y el número de ficha */
+  pointer-events: none; /* Evita la interacción del usuario con el icono */
+}
+
+.error-message {
+  color: red; /* Color del texto del mensaje de error */
+  margin-top: 5px; /* Ajusta el margen superior según tus preferencias */
+  text-align: center; /* Centra el texto */
+  font-size: 10px;
+}
+
+.error{
+  color: green;
+}
+
+.Migrar.max-reached {
+  border-color: #ccc; /* Cambia el color del borde a gris */
+  background-color: #ccc;
+}
+
+.Migrar:not(.max-reached) {
+  background-color: #fff; /* Establece el fondo a blanco cuando no se alcanza el máximo */
+  border: 1px solid #D5ECF8;
+}
+
+.button-like-link {
+  background: none;
+  border: none;
+  color: var(--primary-blue); /* o cualquier otro color que desees para los enlaces */
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0; /* Puedes ajustar el relleno según tus preferencias */
+  font-size: inherit;
+}
+/* Agrega estilos según tus necesidades */
+.valid-input {
+  border: 2px solid var(--primary-blue); /* Borde verde para indicar que es válido */
+}
+
+.invalid-length{
+  border: 2px solid red;
+}
+
+.establecer{
+  color: white;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+
+.invalid-character{
+  border: 2px solid red;
+}
+
+.centrar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modif{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.c{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.texto_p{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.paginacion{
+  font-size: 13px;
+
+}
+
+.modificar{
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.ubicacion{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.label_select{
+  color: #706666;
+  font-size: 15px;
+  align-self: flex-end;
+  margin-right: 15px;
+}
+
+.select_items{
+  align-self: flex-end;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  border-color: rgb(210, 205, 205);
+  min-width: 100px;
+  text-align: center;
+  padding: 2px 2px;
+}
+
+.selectorr{
+  width: 220px;
+  display: block;
+  border-radius: 2px;
+  border: 1px solid #D5ECF8;
+  padding: 0.6rem 0.0rem 0.5rem 0rem;
+  outline: none;
+  margin-top: 4px;
+}
+
+.required{
+  color: red;
+  font-size: 15px;
+}
+
+/* carga de documentos*/
+
+/* Estilo del contenedor personalizado para el campo de carga de archivos */
+.file-upload-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo del botón de carga de archivos */
+.file-upload-btn {
+  background-color: var(--primary-blue);
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.file-upload-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+
+/* Estilo del contenedor del archivo cargado */
+.file-info {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+/* Estilo del nombre del archivo */
+.file-name {
+  margin-right: 10px;
+}
+
+/* Estilo del botón de eliminar archivo */
+.delete-file-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.tag-list {
+  height: 80px;
+  max-height: 80px;
+  overflow-y: auto;
+}
+
+.tag-listt {
+  height: 130px;
+  max-height: 130px;
+  overflow-y: auto;
+}
+
+/* .list{
+  height: 30px;
+  max-height: 30px;
+  overflow-y: auto;
+} */
+
+
+.tagg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.tag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 13px;
+}
+/* Listar Pedidos*/
+
+.centrar{
+  text-align: center;
+}
+
+/* Cambiar de color*/
+
+.asignado{
+  background-color: #156e15;
+}
+
+.asignado input[type="checkbox"]{
+  opacity: 0.5;;
+  cursor: not-allowed;
+}
+
+/*Motivo*/
+.select{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: #D5D5D5 1px solid;
+  padding: 9px;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+}
+
+.TextCentro{
+  text-align: center;
+}
+
+ /* .responsive-datepicker {
+  width: 70vw; 
+  max-width: 16.3%; 
+}  */
+
+/* .responsive-datepicker .react-datepicker__close-icon {
+  color: red; /* Puedes ajustar el color según tus preferencias */
+  /* Otros estilos específicos para el botón de limpiar si es necesario */
+
+  /* .react-datepicker__input-container{
+    display: inline-block;
+  } */
+
+  .custom-textarea {
+    max-height: 500px; /* Ajusta la altura máxima según tus necesidades */
+    overflow-y: auto; /* Añade scroll vertical si el contenido excede la altura máxima */
+  }
+  
+
+
+
+
+
+
+  

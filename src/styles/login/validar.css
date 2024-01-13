@@ -1,0 +1,95 @@
+.acceder{
+    position: absolute;
+}
+
+.container{
+    position: absolute;
+}
+
+.accede{
+    position: absolute;
+}
+.containe{
+    position: absolute;
+}
+
+
+form .codigo[type="text"]{
+    padding-left: 0.8rem;
+}
+
+.input-container.codigo{
+    position: relative;
+    font-size: 0.9rem;
+}
+
+.input-container.codigo p{
+    position: absolute;
+    top: 55px;
+    color: #888;
+}
+
+
+.contr-link{
+    color: var(--primary-blue);
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.buttonn-container{
+    position: absolute;
+}
+
+.signup-btnn{
+    width: 150px;
+    background: var(--primary-blue);
+    color: white;
+    font-weight: 700;
+    border: 1px solid #D5ECF8;
+    border-radius: 4px;
+    padding: 1.3rem 1.3rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    cursor: pointer;  
+}
+
+
+@media (min-width: 320px) and (max-width: 1019px){
+    .accede{
+        top: 350px;
+    }
+
+    .containe{
+        top: 270px;
+    }
+
+    .acceder{
+        top: 430px;
+    }
+
+    .container{
+        top: 350px;
+    }
+}
+
+@media (min-width: 1020px){
+   
+    .acceder{
+        top: 420px;
+    }
+   
+
+    .container{
+        top: 350px;
+    }
+
+    .accede{
+        top: 340px;
+    }
+
+    .containe{
+        top: 270px;
+    }
+
+}

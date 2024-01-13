@@ -1,0 +1,138 @@
+/* Configuración del header */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+  }
+  
+  .header__menu{
+    display: none;
+  
+  } 
+  
+  .header__imagenes{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+  
+  }
+
+  .header__contenido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .header__imagen--logotipo{
+    height: 60px;
+    margin-left: 40px;
+                                                  
+  }
+  
+  .iniciales {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(60, 179, 113);
+    border-radius: 50%;
+    padding: 10px 15px ;
+    text-align: center;
+  }
+  
+  .header__opcion{
+    height: 50px;
+    width: 50px;
+    background-image: url(../../assets/iconos/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    background-position: 18% center;
+    color: #2660A3;
+    cursor: pointer;
+    flex-grow: 1;
+  }
+  
+  .logout-popup{
+    position: absolute;
+    right: 39px;
+    top: 60px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,0.1);
+    border-radius: 10px;
+    padding: 17px 20px 17px 20px;
+    background-color: white;
+    z-index: 2;
+  }
+  
+  .logout-popup button{
+    border: none;
+    background-color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+  
+  }
+
+  @media(max-width: 900px){
+
+      .header{
+        height: 50px;
+        justify-content: center;
+     }
+    
+      .header__menu{
+        height: 100%;
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        display: block;
+      }
+
+      .header__imagenes{
+        display: flex;
+        height: 100%;
+      }
+      .header__imagen--logotipo{
+        width: 170px;
+        height: 32px;
+        margin-left: 5px;
+      }
+  
+      .header__contenido{
+        gap: 0px;
+      }
+  
+      .header__texto{
+        display: none;
+      }
+
+      .header__opcion{
+        flex-grow: 1;
+      }
+  
+      .logout-popup{
+        right: 15px;
+        padding: 17px 13px 17px 13px;
+      }
+      
+      .iniciales {
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: rgb(60, 179, 113);
+        border-radius: 50%;
+        padding: 5px 10px;
+        text-align: center;
+      }
+      
+  
+      .menu-icon{
+        margin: 15px 10px;
+        color: #2660A3;
+        font-size: 2.3rem;
+        text-align: center;
+      } 
+  
+  }

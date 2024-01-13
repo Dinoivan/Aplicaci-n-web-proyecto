@@ -1,0 +1,126 @@
+ 
+
+.split-screen{
+    display: flex;
+    flex-direction: column;
+}
+
+.left{
+    height: 200px;
+    position: relative;
+}
+
+.left, .right{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.left{
+    background:url("../../assets/imagenes/Celima.jpg");
+    background-size: 100% 100%;
+}
+
+.right .copy{
+    color: black;
+    text-align: center;
+}
+
+.right .copy h2{
+    font-size: 2.0rem;
+}
+
+
+.right .copy p{
+    margin: 0.2rem 0rem 3.0rem 0rem;
+    font-size: 0.997rem;
+
+}
+
+@media (min-width: 320px) and (max-width: 1019px){
+
+    .left{
+        display: none;
+    }
+
+    .right{
+        margin-top: 55px;
+    }
+
+    .image-container{
+        height: 110px;
+    }
+
+    .input-container.name p{
+        top: 55px;
+        color: #888;
+    }
+
+    #password::-webkit-input-placeholder {
+        font-size: 2.8rem;
+        font-weight: 600;
+    }
+
+    .contraseña{
+        top: 355px;
+    }
+
+    .button-container{
+        top: 410px;
+    }
+
+    .footer-formulario{
+        top: 580px;
+    }
+}
+
+@media (min-width: 1020px){
+    .split-screen{
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    .left,.right{
+        display: flex;
+        height: auto;
+    }
+
+    .left{
+        flex: 1.2;
+    }
+
+    .right{
+        margin-bottom: 55px;
+    }
+
+    .right{
+        flex: 0.51;
+    }
+
+    .image-container{
+        height: 118px;
+    }
+
+    #password::-webkit-input-placeholder {
+        font-size: 2.8rem;
+        font-weight: 600;
+    }
+
+    .contraseña{
+        top: 355px;
+    }
+   
+    .input-container.name p{
+        top: 57px;
+        color: #888;
+    }
+
+    .button-container{
+        top: 410px;
+    }
+
+    .footer-formulario{
+        top: 550px;
+    }
+
+}

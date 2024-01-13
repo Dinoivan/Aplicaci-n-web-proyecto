@@ -1,0 +1,9 @@
+ 
+
+.columna-features{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+

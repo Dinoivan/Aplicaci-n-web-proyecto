@@ -1,0 +1,107 @@
+.right form{
+    width: 300px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.image-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: 5px;
+
+}
+
+.input-container.name p{
+    position: absolute;
+    font-size: 0.9rem;
+}
+
+.input-container.name, .input-container.password{
+    position: relative;
+    display: inline-block;
+}
+
+.input-arroba, .input-icon {
+    position: absolute;
+    left: 10px; 
+    top: 40%;
+    transform: translateY(-40%);
+    height: 20px; 
+    width: 20px; 
+    pointer-events: none; 
+}   
+
+form input[type="email"],
+form input[type="password"],
+form input[type="text"] {
+    display: block;
+    width: 270px;
+    border-radius: 2px;
+    border: 1px solid #D5ECF8;
+    padding: 0.8rem 0.8rem 0.8rem 3.7rem;
+    margin-bottom: 3.45rem;
+    outline: none;
+}
+
+
+
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.contraseña{
+    position: absolute;
+}
+
+.contraseña-link{
+    color: var(--primary-blue);
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+
+.button-container{
+    position: absolute;
+}
+
+.toggle-password-icon {
+    cursor: pointer;
+    width: 15px;
+    position: absolute;  
+    top: 40px;
+    right: 10px;  
+    transform: translateY(-50%);
+}
+
+
+.signup-btn{
+    width: 150px;
+    background: var(--primary-blue);
+    color: white;
+    font-weight: 700;
+    border: 1px solid #D5ECF8;
+    border-radius: 4px;
+    padding: 1.3rem 1.3rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    
+}
+
+
+.footer-formulario{
+    position: absolute;
+}
+
+.footer-formulario p{
+    font-size: 1.1rem;
+   
+}
